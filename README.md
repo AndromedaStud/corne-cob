@@ -1,5 +1,6 @@
 # ergo-corne
 Ergogen clone of the popular corne layout with some modifications.
-<img width="552" height="368" alt="image" src="https://github.com/user-attachments/assets/432aa8f0-1d4a-4ba5-8706-ec7f8fe5ee05" />
+<img width="1025" height="484" alt="image" src="https://github.com/user-attachments/assets/e373d5a8-4498-42e9-a572-d5ac58e20a0b" />
+
 
 This project was built off of Narkoleptika's [josukey](https://github.com/Narkoleptika/josukey).
