@@ -345,14 +345,18 @@ pcbs:
                 adjust:
                     shift: [16, -12]
                     rotate: 90
-            jst-s2b-ph-kl:
-                what: jst-s2b-ph-kl
+            jstph:
+                what: jstph
                 where:
                     ref: main_inner_bottom
                     shift: [21, -2]
                     rotate: -90
                 params:
+                    side: B
+                    pos: pos
                     neg: GND
+                    
+                    
             pcm12:
                 what: pcm12
                 where:
@@ -362,15 +366,15 @@ pcbs:
                 params:
                     from: pos
                     to: RAW
-            wuerth-434121025816:
-                what: wuerth-434121025816
+            horizontal_reset:
+                what: EVQPUC
                 where:
                     ref: main_inner_bottom
                     shift: [30, -6]
-                    rotate: 90
-                params:
-                    r1: RST
-                    r2: GND
+                    rotate: -90
+                params: 
+                    from: GND
+                    to: RST 
 
 
     corneR:
@@ -427,13 +431,15 @@ pcbs:
                 adjust:
                     shift: [28, -12]
                     rotate: -90
-            jst-s2b-ph-kl:
-                what: jst-s2b-ph-kl
+            jstph:
+                what: jstph
                 where:
                     ref: mirror_main_inner_bottom
                     shift: [21, -2]
                     rotate: -90
                 params:
+                    side: B
+                    pos: pos
                     neg: GND
             pcm12:
                 what: pcm12
@@ -444,12 +450,12 @@ pcbs:
                 params:
                     from: pos
                     to: RAW
-            wuerth-434121025816:
-                what: wuerth-434121025816
+            horizontal_reset:
+                what: EVQPUC
                 where:
                     ref: mirror_main_inner_bottom
                     shift: [30, -6]
-                    rotate: 90
-                params:
-                    r1: RST
-                    r2: GND
+                    rotate: -90
+                params: 
+                    from: GND
+                    to: RST 
