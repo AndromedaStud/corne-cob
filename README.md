@@ -23,7 +23,7 @@ It’s designed with improved ergonomics, better hardware support, and a few qua
 ## Key Features and Additions
 Compared to **josukey**, Corne Cob includes:
 
-- SSD1306 OLED display for real-time system feedback  
+- OLED display for real-time system feedback  
 - Larger battery for extended wireless use  
 - Angled case for improved typing comfort  
 - Nice!Nano-specific footprint for wireless builds  
@@ -45,7 +45,19 @@ Compared to **josukey**, Corne Cob includes:
 - [ ] Finalize v1 PCB layout  
 - [ ] Test case fit and alignment  
 - [ ] Validate power delivery and charging circuit  
-- [ ] Release build guide and firmware configuration  
+- [ ] Release build guide and firmware configuration
+
+---
+## Parts List
+- [Nice!Nano Microcontroller](https://typeractive.xyz/products/nice-nano)
+- SSD1306 I2C OLED
+- 1800 mah battery (considering [PS3 Controller batteries](https://www.amazon.com/Replacement-Playstation-Controller-CECHZC2E-CECHZC2U-3/dp/B09726K2LC))
+- Power Switch [PCM12SMTR](https://www.digikey.com/en/products/detail/c-k/PCM12SMTR/1640112)
+- Reset Switch [EVQ-PUC02K](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-PUC02K/286336)
+- RGB LED - [S35353RGBSK6812MINID001](https://www.digikey.com/en/products/detail/home-run-tech/S35353RGBSK6812MINID001/25879535)
+- Diode - [1N4148W](https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450)
+- Choc v1 switches
+- Choc v1 keycaps
 
 ---
 
