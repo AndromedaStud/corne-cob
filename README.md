@@ -7,6 +7,15 @@ Ergogen clone of the popular corne layout with some modifications.
 
 Currently in v0, not ready to be produced.
 
-
-
 This project was built off of Narkoleptika's [josukey](https://github.com/Narkoleptika/josukey).
+
+Additions to Josukey:
+OLED display
+Much larger battery 
+Angled case
+Nice!Nano specific footprint
+Seperate Left and Right sides
+1.5u thumbkey support
+6 column design
+
+
