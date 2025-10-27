@@ -287,6 +287,10 @@ cases.corne:
         extrude: 6
         operation: add
     -   what: outline
+        name: _keycap2_outlines
+        extrude: 6
+        operation: add
+    -   what: outline
         name: _space_outline
         extrude: 6
         operation: add
