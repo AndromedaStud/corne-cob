@@ -10,12 +10,12 @@ Currently in v0, not ready to be produced.
 This project was built off of Narkoleptika's [josukey](https://github.com/Narkoleptika/josukey).
 
 Additions to Josukey:
-OLED display
-Much larger battery 
-Angled case
-Nice!Nano specific footprint
-Seperate Left and Right sides
-1.5u thumbkey support
-6 column design
+/n - OLED display
+/n - Much larger battery 
+/n - Angled case
+/n - Nice!Nano specific footprint
+/n - Seperate Left and Right sides
+/n - 1.5u thumbkey support
+/n - 6 column design
 
 
