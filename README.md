@@ -23,7 +23,7 @@ It’s designed with improved ergonomics, better hardware support, and a few qua
 ## Key Features and Additions
 Compared to **josukey**, Corne Cob includes:
 
-- OLED display for real-time system feedback  
+- SSD1306 OLED display for real-time system feedback  
 - Larger battery for extended wireless use  
 - Angled case for improved typing comfort  
 - Nice!Nano-specific footprint for wireless builds  
