@@ -30,6 +30,7 @@ Compared to **josukey**, Corne Cob includes:
 - Separate left and right PCBs for easier assembly  
 - 1.5u thumb key support for flexible keymapping  
 - 6-column design (versus the standard 5-column Corne)
+- Horizontal reset key for easier access
 
 ---
 
