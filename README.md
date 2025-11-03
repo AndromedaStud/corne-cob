@@ -58,6 +58,7 @@ Compared to **josukey**, Corne Cob includes:
 - Diode - [1N4148W](https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450)
 - Choc v1 switches
 - Choc v1 keycaps
+- Rubber Feet [SJ5382](https://www.digikey.com/en/products/detail/3m/SJ5382/3866079)
 
 ---
 
