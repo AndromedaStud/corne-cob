@@ -1,4 +1,4 @@
-# Corne Cob
+# Corne Cob 🌽
 *A modern Ergogen clone of the popular Corne layout, with a few thoughtful modifications.*
 
 <p align="center">
