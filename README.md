@@ -24,13 +24,14 @@ It’s designed with improved ergonomics, better hardware support, and a few qua
 Compared to **josukey**, Corne Cob includes:
 
 - OLED display for real-time system feedback  
-- Larger battery for extended wireless use  
+- Larger battery for extended wireless use
 - Angled case for improved typing comfort  
 - Nice!Nano-specific footprint for wireless builds  
 - Separate left and right PCBs for easier assembly  
 - 1.5u thumb key support for flexible keymapping  
 - 6-column design (versus the standard 5-column Corne)
 - Horizontal reset key for easier access
+- North facing RGB for better choc keycap support
 
 ---
 
