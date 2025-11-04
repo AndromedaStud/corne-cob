@@ -49,7 +49,7 @@ Compared to **josukey**, Corne Cob includes:
 
 ---
 ## Parts List
-- [Nice!Nano Microcontroller](https://typeractive.xyz/products/nice-nano) 2
+- Nice!Nano v2 2 [Microcontroller](https://typeractive.xyz/products/nice-nano)
 - SSD1306 I2C IIC OLED 2 
 - 1800 mah battery 2 (considering [PS3 Controller batteries](https://www.amazon.com/Replacement-Playstation-Controller-CECHZC2E-CECHZC2U-3/dp/B09726K2LC))
 - Power Switch >2 [PCM12SMTR](https://www.digikey.com/en/products/detail/c-k/PCM12SMTR/1640112)
