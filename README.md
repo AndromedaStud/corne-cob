@@ -49,17 +49,18 @@ Compared to **josukey**, Corne Cob includes:
 
 ---
 ## Parts List
-- [Nice!Nano Microcontroller](https://typeractive.xyz/products/nice-nano)
-- SSD1306 I2C OLED
-- 1800 mah battery (considering [PS3 Controller batteries](https://www.amazon.com/Replacement-Playstation-Controller-CECHZC2E-CECHZC2U-3/dp/B09726K2LC))
-- Power Switch [PCM12SMTR](https://www.digikey.com/en/products/detail/c-k/PCM12SMTR/1640112)
-- Reset Switch [EVQ-PUC02K](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-PUC02K/286336)
-- RGB LED - [S35353RGBSK6812MINID001](https://www.digikey.com/en/products/detail/home-run-tech/S35353RGBSK6812MINID001/25879535)
-- Diode - [1N4148W](https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450)
-- Choc v1 switches
-- Choc v1 keycaps
-- Rubber Feet [SJ5382](https://www.digikey.com/en/products/detail/3m/SJ5382/3866079)
-
+- [Nice!Nano Microcontroller](https://typeractive.xyz/products/nice-nano) 2
+- SSD1306 I2C IIC OLED 2 
+- 1800 mah battery 2 (considering [PS3 Controller batteries](https://www.amazon.com/Replacement-Playstation-Controller-CECHZC2E-CECHZC2U-3/dp/B09726K2LC))
+- Power Switch >2 [PCM12SMTR](https://www.digikey.com/en/products/detail/c-k/PCM12SMTR/1640112)
+- Reset Switch >2 [EVQ-PUC02K](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-PUC02K/286336)
+- RGB LED 50 [S35353RGBSK6812MINID001](https://www.digikey.com/en/products/detail/home-run-tech/S35353RGBSK6812MINID001/25879535)
+- Diode 50 [1N4148W](https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450)
+- Battery Adapter [S2B-PH-K-S](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626)
+- Choc v1 switches >42
+- Choc v1 keycaps >42
+- Rubber Feet 10 [SJ5382](https://www.digikey.com/en/products/detail/3m/SJ5382/3866079)
+- M2 screws
 ---
 
 ## Acknowledgements
