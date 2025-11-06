@@ -50,6 +50,8 @@ Compared to **josukey**, Corne Cob includes:
 
 ---
 ## Parts List
+Price estimate chart found [here](https://docs.google.com/spreadsheets/d/1HdLqQ5FFB6K92mRF0pi76wc0cOreWh93cLWDCBQdG54/edit?usp=sharing)
+
 - Nice!Nano v2 2 [Microcontroller](https://typeractive.xyz/products/nice-nano)
 - SSD1306 I2C IIC OLED 2 
 - 1800 mah battery 2 (considering [PS3 Controller batteries](https://www.amazon.com/Replacement-Playstation-Controller-CECHZC2E-CECHZC2U-3/dp/B09726K2LC))
