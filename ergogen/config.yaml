@@ -17,12 +17,12 @@ points:
                     rows:
                         bottom:
                             led_in: "rgb_{{name}}"
-                            led_out: rgb_main_pinky_home
                         home:
                             led_in: "rgb_{{name}}"
-                            led_out: rgb_main_pinky_top
+                            led_out: rgb_main_pinky_bottom
                         top:
                             led_in: "rgb_{{name}}"
+                            led_out: rgb_main_pinky_home
                 pinky2:
                     key:
                         col_net: P7
@@ -36,6 +36,7 @@ points:
                             led_out: rgb_main_pinky2_top
                         top:
                             led_in: "rgb_{{name}}"
+                            led_out: rgb_main_pinky_top
                 ring:
                     key:
                         col_net: P6
@@ -44,7 +45,7 @@ points:
                     rows:
                         bottom:
                             led_in: "rgb_{{name}}"
-                            led_out: rgb_main_pinky_bottom
+                            led_out: rgb_main_pinky2_bottom
                         home:
                             led_in: "rgb_{{name}}"
                             led_out: rgb_main_ring_bottom
@@ -498,7 +499,7 @@ pcbs:
                     from: "{{name}}"
                     to: "{{row_net}}"
                 adjust:
-                    shift: [ 7.6, 1.6 ]
+                    shift: [ -7.6, 1.6 ]
                     rotate: 90
             choc:
                 what: choc
@@ -616,7 +617,7 @@ pcbs:
                     from: "{{name}}"
                     to: "{{row_net}}"
                 adjust:
-                    shift: [ -7.6, 1.6 ]
+                    shift: [ 7.6, 1.6 ]
                     rotate: 90
             choc:
                 what: choc
