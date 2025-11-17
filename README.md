@@ -8,9 +8,9 @@
 ---
 
 ## Project Status
-**Version:** v0  
+**Version:** v0.9  
 
-> This version is still in development and not yet ready for production.
+> This version is still in development and may not be ready for production.
 
 ---
 
