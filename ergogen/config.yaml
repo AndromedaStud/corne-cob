@@ -6,9 +6,9 @@ points:
     zones:
         main:
             rows:
-                bottom.row_net: P14
-                home.row_net: P0
-                top.row_net: P1
+                bottom.row_net: P7
+                home.row_net: P20
+                top.row_net: P21
             columns:
                 pinky:
                     key:
@@ -25,7 +25,7 @@ points:
                             led_out: rgb_main_pinky_home
                 pinky2:
                     key:
-                        col_net: P7
+                        col_net: P16
                         spread: cx
                     rows:
                         bottom:
@@ -39,7 +39,7 @@ points:
                             led_out: rgb_main_pinky_top
                 ring:
                     key:
-                        col_net: P6
+                        col_net: P14
                         stagger: 4
                         spread: cx
                     rows:
@@ -54,7 +54,7 @@ points:
                             led_out: rgb_main_ring_home
                 middle:
                     key:
-                        col_net: P5
+                        col_net: P15
                         stagger: 2
                         spread: cx
                     rows:
@@ -69,7 +69,7 @@ points:
                             led_out: rgb_main_ring_top
                 index:
                     key:
-                        col_net: P4
+                        col_net: P18
                         stagger: -2
                         spread: cx
                     rows:
@@ -84,7 +84,7 @@ points:
                             led_out: rgb_main_index_home
                 inner:
                     key:
-                        col_net: P15
+                        col_net: P19
                         stagger: -2
                         spread: cx
                     rows:
@@ -104,19 +104,19 @@ points:
             rows.home.row_net: P8
             columns:
                 inner.key:
-                    col_net: P5
+                    col_net: P15
                     led_in: "rgb_{{name}}"
                     led_out: rgb_main_middle_bottom
                     spread: cx
                 home.key:
-                    col_net: P4
+                    col_net: P18
                     led_in: "rgb_{{name}}"
                     led_out: rgb_thumb_inner_home
                     spread: cx + 2
                     rotate: -18
                     stagger: -3.2
                 outer.key:
-                    col_net: P15
+                    col_net: P19
                     led_in: P9
                     led_out: rgb_main_inner_bottom
                     spread: cx
@@ -500,7 +500,7 @@ pcbs:
                     to: "{{row_net}}"
                 adjust:
                     shift: [ -7.6, 1.6 ]
-                    rotate: 90
+                    rotate: 270
             choc:
                 what: choc
                 where: [/^main_.*/, /^thumb_.*/]

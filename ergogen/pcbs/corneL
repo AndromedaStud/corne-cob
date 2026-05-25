@@ -117,11 +117,11 @@
 (net 22 "rgb_thumb_inner_home")
 (net 23 "P9")
 (net 24 "main_pinky_bottom")
-(net 25 "P14")
+(net 25 "P7")
 (net 26 "main_pinky_home")
-(net 27 "P0")
+(net 27 "P20")
 (net 28 "main_pinky_top")
-(net 29 "P1")
+(net 29 "P21")
 (net 30 "main_pinky2_bottom")
 (net 31 "main_pinky2_home")
 (net 32 "main_pinky2_top")
@@ -142,20 +142,20 @@
 (net 47 "thumb_home_home")
 (net 48 "thumb_outer_home")
 (net 49 "P10")
-(net 50 "P7")
-(net 51 "P6")
-(net 52 "P5")
-(net 53 "P4")
-(net 54 "P15")
+(net 50 "P16")
+(net 51 "P14")
+(net 52 "P15")
+(net 53 "P18")
+(net 54 "P19")
 (net 55 "RAW")
 (net 56 "RST")
-(net 57 "P21")
-(net 58 "P20")
-(net 59 "P19")
-(net 60 "P18")
-(net 61 "P16")
-(net 62 "P2")
-(net 63 "P3")
+(net 57 "P1")
+(net 58 "P0")
+(net 59 "P2")
+(net 60 "P3")
+(net 61 "P4")
+(net 62 "P5")
+(net 63 "P6")
 (net 64 "pos")
 
   (net_class Default "This is the default net class."
@@ -190,11 +190,11 @@
 (add_net "rgb_thumb_inner_home")
 (add_net "P9")
 (add_net "main_pinky_bottom")
-(add_net "P14")
+(add_net "P7")
 (add_net "main_pinky_home")
-(add_net "P0")
+(add_net "P20")
 (add_net "main_pinky_top")
-(add_net "P1")
+(add_net "P21")
 (add_net "main_pinky2_bottom")
 (add_net "main_pinky2_home")
 (add_net "main_pinky2_top")
@@ -215,20 +215,20 @@
 (add_net "thumb_home_home")
 (add_net "thumb_outer_home")
 (add_net "P10")
-(add_net "P7")
-(add_net "P6")
-(add_net "P5")
-(add_net "P4")
+(add_net "P16")
+(add_net "P14")
 (add_net "P15")
+(add_net "P18")
+(add_net "P19")
 (add_net "RAW")
 (add_net "RST")
-(add_net "P21")
-(add_net "P20")
-(add_net "P19")
-(add_net "P18")
-(add_net "P16")
+(add_net "P1")
+(add_net "P0")
 (add_net "P2")
 (add_net "P3")
+(add_net "P4")
+(add_net "P5")
+(add_net "P6")
 (add_net "pos")
   )
 
@@ -822,14 +822,14 @@
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at -7.6 -1.6 90)
+            (at -7.6 -1.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D1" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D1" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -867,20 +867,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P14"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 24 "main_pinky_bottom"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P7"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 24 "main_pinky_bottom"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at -7.6 -18.6 90)
+            (at -7.6 -18.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D2" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D2" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -918,20 +918,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P0"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 26 "main_pinky_home"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P20"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 26 "main_pinky_home"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at -7.6 -35.6 90)
+            (at -7.6 -35.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D3" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D3" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -969,20 +969,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P1"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 28 "main_pinky_top"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P21"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 28 "main_pinky_top"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 10.4 -1.6 90)
+            (at 10.4 -1.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D4" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D4" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1020,20 +1020,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P14"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 30 "main_pinky2_bottom"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P7"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 30 "main_pinky2_bottom"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 10.4 -18.6 90)
+            (at 10.4 -18.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D5" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D5" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1071,20 +1071,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P0"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 31 "main_pinky2_home"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P20"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 31 "main_pinky2_home"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 10.4 -35.6 90)
+            (at 10.4 -35.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D6" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D6" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1122,20 +1122,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P1"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 32 "main_pinky2_top"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P21"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 32 "main_pinky2_top"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 28.4 -5.6 90)
+            (at 28.4 -5.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D7" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D7" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1173,20 +1173,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P14"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 33 "main_ring_bottom"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P7"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 33 "main_ring_bottom"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 28.4 -22.6 90)
+            (at 28.4 -22.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D8" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D8" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1224,20 +1224,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P0"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 34 "main_ring_home"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P20"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 34 "main_ring_home"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 28.4 -39.6 90)
+            (at 28.4 -39.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D9" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D9" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1275,20 +1275,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P1"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 35 "main_ring_top"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P21"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 35 "main_ring_top"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 46.4 -7.6 90)
+            (at 46.4 -7.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D10" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D10" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1326,20 +1326,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P14"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 36 "main_middle_bottom"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P7"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 36 "main_middle_bottom"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 46.4 -24.6 90)
+            (at 46.4 -24.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D11" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D11" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1377,20 +1377,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P0"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 37 "main_middle_home"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P20"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 37 "main_middle_home"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 46.4 -41.6 90)
+            (at 46.4 -41.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D12" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D12" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1428,20 +1428,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P1"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 38 "main_middle_top"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P21"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 38 "main_middle_top"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 64.4 -5.6 90)
+            (at 64.4 -5.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D13" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D13" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1479,20 +1479,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P14"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 39 "main_index_bottom"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P7"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 39 "main_index_bottom"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 64.4 -22.6 90)
+            (at 64.4 -22.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D14" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D14" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1530,20 +1530,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P0"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 40 "main_index_home"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P20"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 40 "main_index_home"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 64.4 -39.6 90)
+            (at 64.4 -39.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D15" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D15" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1581,20 +1581,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P1"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 41 "main_index_top"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P21"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 41 "main_index_top"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 82.4 -3.6 90)
+            (at 82.4 -3.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D16" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D16" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1632,20 +1632,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P14"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 42 "main_inner_bottom"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 25 "P7"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 42 "main_inner_bottom"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 82.4 -20.6 90)
+            (at 82.4 -20.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D17" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D17" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1683,20 +1683,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P0"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 43 "main_inner_home"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 27 "P20"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 43 "main_inner_home"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 82.4 -37.6 90)
+            (at 82.4 -37.6 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D18" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D18" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1734,20 +1734,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P1"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 44 "main_inner_top"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 29 "P21"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 44 "main_inner_top"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 55.4 11.4 90)
+            (at 55.4 11.4 270)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D19" (at 0 -2 90) (layer "F.SilkS") hide
+            (fp_text reference "D19" (at 0 -2 270) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 90) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 270) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1785,20 +1785,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 46 "P8"))
-            (pad "2" thru_hole rect (at 1.4 0 90) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 45 "thumb_inner_home"))
+            (pad "1" thru_hole rect (at -1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 46 "P8"))
+            (pad "2" thru_hole rect (at 1.4 0 270) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 45 "thumb_inner_home"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 76.2663977 12.329780399999999 72)
+            (at 76.2663977 12.329780399999999 252)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D20" (at 0 -2 72) (layer "F.SilkS") hide
+            (fp_text reference "D20" (at 0 -2 252) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 72) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 252) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1836,20 +1836,20 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 72) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 46 "P8"))
-            (pad "2" thru_hole rect (at 1.4 0 72) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 47 "thumb_home_home"))
+            (pad "1" thru_hole rect (at -1.4 0 252) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 46 "P8"))
+            (pad "2" thru_hole rect (at 1.4 0 252) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 47 "thumb_home_home"))
         )
     
 
         (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
-            (at 100.5419272 14.888404899999998 54)
+            (at 100.5419272 14.888404899999998 234)
             (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
             (tags "CFP3 SOD-123W")
             (attr smd)
-            (fp_text reference "D21" (at 0 -2 54) (layer "F.SilkS") hide
+            (fp_text reference "D21" (at 0 -2 234) (layer "F.SilkS") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
-            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 54) (layer "F.Fab") hide
+            (fp_text value "Nexperia_CFP3_SOD-123W" (at 0 2 234) (layer "F.Fab") hide
                 (effects (font (size 1 1) (thickness 0.15)))
             )
             (fp_line (start -2.26 -0.95) (end -2.26 0.95) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
@@ -1887,8 +1887,8 @@
             (fp_line (start 0.75 0) (end 0.25 0) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 -0.85) (end 1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
             (fp_line (start 1.3 0.85) (end -1.3 0.85) (stroke (width 0.1) (type solid)) (layer "B.Fab"))
-            (pad "1" thru_hole rect (at -1.4 0 54) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 46 "P8"))
-            (pad "2" thru_hole rect (at 1.4 0 54) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 48 "thumb_outer_home"))
+            (pad "1" thru_hole rect (at -1.4 0 234) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 46 "P8"))
+            (pad "2" thru_hole rect (at 1.4 0 234) (size 1.2 1.2) (drill 0.3) (layers *.Cu *.Mask) (zone_connect 2) (net 48 "thumb_outer_home"))
         )
     
 
@@ -2059,7 +2059,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 50 "P7"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 50 "P16"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 30 "main_pinky2_bottom"))
         )
         
@@ -2102,7 +2102,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 50 "P7"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 50 "P16"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 31 "main_pinky2_home"))
         )
         
@@ -2145,7 +2145,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 50 "P7"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 50 "P16"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 32 "main_pinky2_top"))
         )
         
@@ -2188,7 +2188,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 51 "P6"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 51 "P14"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 33 "main_ring_bottom"))
         )
         
@@ -2231,7 +2231,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 51 "P6"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 51 "P14"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 34 "main_ring_home"))
         )
         
@@ -2274,7 +2274,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 51 "P6"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 51 "P14"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 35 "main_ring_top"))
         )
         
@@ -2317,7 +2317,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "P5"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "P15"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 36 "main_middle_bottom"))
         )
         
@@ -2360,7 +2360,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "P5"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "P15"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 37 "main_middle_home"))
         )
         
@@ -2403,7 +2403,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "P5"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "P15"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 38 "main_middle_top"))
         )
         
@@ -2446,7 +2446,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "P4"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "P18"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 39 "main_index_bottom"))
         )
         
@@ -2489,7 +2489,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "P4"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "P18"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 40 "main_index_home"))
         )
         
@@ -2532,7 +2532,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "P4"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "P18"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 41 "main_index_top"))
         )
         
@@ -2575,7 +2575,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "P15"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "P19"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 42 "main_inner_bottom"))
         )
         
@@ -2618,7 +2618,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "P15"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "P19"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 43 "main_inner_home"))
         )
         
@@ -2661,7 +2661,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "P15"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "P19"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 44 "main_inner_top"))
         )
         
@@ -2704,7 +2704,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "P5"))
+          (pad 1 smd rect (at -3.275 -5.95 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "P15"))
           (pad 2 smd rect (at 8.275 -3.75 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 45 "thumb_inner_home"))
         )
         
@@ -2747,7 +2747,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 162) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "P4"))
+          (pad 1 smd rect (at -3.275 -5.95 162) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "P18"))
           (pad 2 smd rect (at 8.275 -3.75 162) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 47 "thumb_home_home"))
         )
         
@@ -2790,7 +2790,7 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 144) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "P15"))
+          (pad 1 smd rect (at -3.275 -5.95 144) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "P19"))
           (pad 2 smd rect (at 8.275 -3.75 144) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 48 "thumb_outer_home"))
         )
         
@@ -2853,25 +2853,25 @@
         (pad 2 thru_hole circle (at -11.43 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 3 "GND"))
         (pad 3 thru_hole circle (at -8.89 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 56 "RST"))
         (pad 4 thru_hole circle (at -6.35 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 2 "VCC"))
-        (pad 5 thru_hole circle (at -3.81 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 57 "P21"))
-        (pad 6 thru_hole circle (at -1.27 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 58 "P20"))
-        (pad 7 thru_hole circle (at 1.27 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 59 "P19"))
-        (pad 8 thru_hole circle (at 3.81 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 60 "P18"))
-        (pad 9 thru_hole circle (at 6.35 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 54 "P15"))
-        (pad 10 thru_hole circle (at 8.89 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 25 "P14"))
-        (pad 11 thru_hole circle (at 11.43 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 61 "P16"))
+        (pad 5 thru_hole circle (at -3.81 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 29 "P21"))
+        (pad 6 thru_hole circle (at -1.27 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 27 "P20"))
+        (pad 7 thru_hole circle (at 1.27 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 54 "P19"))
+        (pad 8 thru_hole circle (at 3.81 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 53 "P18"))
+        (pad 9 thru_hole circle (at 6.35 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 52 "P15"))
+        (pad 10 thru_hole circle (at 8.89 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 51 "P14"))
+        (pad 11 thru_hole circle (at 11.43 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 50 "P16"))
         (pad 12 thru_hole circle (at 13.97 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 49 "P10"))
         
-        (pad 13 thru_hole circle (at -13.97 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 29 "P1"))
-        (pad 14 thru_hole circle (at -11.43 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 27 "P0"))
+        (pad 13 thru_hole circle (at -13.97 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 57 "P1"))
+        (pad 14 thru_hole circle (at -11.43 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 58 "P0"))
         (pad 15 thru_hole circle (at -8.89 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 3 "GND"))
         (pad 16 thru_hole circle (at -6.35 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 3 "GND"))
-        (pad 17 thru_hole circle (at -3.81 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 62 "P2"))
-        (pad 18 thru_hole circle (at -1.27 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 63 "P3"))
-        (pad 19 thru_hole circle (at 1.27 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 53 "P4"))
-        (pad 20 thru_hole circle (at 3.81 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 52 "P5"))
-        (pad 21 thru_hole circle (at 6.35 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 51 "P6"))
-        (pad 22 thru_hole circle (at 8.89 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 50 "P7"))
+        (pad 17 thru_hole circle (at -3.81 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 59 "P2"))
+        (pad 18 thru_hole circle (at -1.27 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 60 "P3"))
+        (pad 19 thru_hole circle (at 1.27 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 61 "P4"))
+        (pad 20 thru_hole circle (at 3.81 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 62 "P5"))
+        (pad 21 thru_hole circle (at 6.35 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 63 "P6"))
+        (pad 22 thru_hole circle (at 8.89 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 25 "P7"))
         (pad 23 thru_hole circle (at 11.43 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 46 "P8"))
         (pad 24 thru_hole circle (at 13.97 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 23 "P9"))
       )
@@ -2886,9 +2886,9 @@
 
         
         (pad 4 thru_hole oval (at 1.6 2.18 360) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-        (net 62 "P2"))
+        (net 59 "P2"))
         (pad 3 thru_hole oval (at 1.6 4.72 360) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-        (net 63 "P3"))
+        (net 60 "P3"))
         (pad 2 thru_hole oval (at 1.6 7.26 360) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
         (net 2 "VCC"))
         (pad 1 thru_hole rect (at 1.6 9.8 360) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
