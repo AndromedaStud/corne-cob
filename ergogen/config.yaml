@@ -6,7 +6,7 @@ points:
     zones:
         main:
             rows:
-                bottom.row_net: P2
+                bottom.row_net: P14
                 home.row_net: P0
                 top.row_net: P1
             columns:
@@ -84,7 +84,7 @@ points:
                             led_out: rgb_main_index_home
                 inner:
                     key:
-                        col_net: P3
+                        col_net: P15
                         stagger: -2
                         spread: cx
                     rows:
@@ -116,7 +116,7 @@ points:
                     rotate: -18
                     stagger: -3.2
                 outer.key:
-                    col_net: P3
+                    col_net: P15
                     led_in: P9
                     led_out: rgb_main_inner_bottom
                     spread: cx
@@ -512,8 +512,8 @@ pcbs:
                     to: "{{name}}"
                 adjust:
                     rotate: 180
-            nice_nano:
-                what: nice_nano
+            promicro:
+                what: promicro
                 where:
                     ref: main_inner_home
                 params:
@@ -630,8 +630,8 @@ pcbs:
                     to: "{{name}}"
                 adjust:
                     rotate: 180
-            nice_nano:
-                what: nice_nano
+            promicro:
+                what: promicro
                 where:
                     ref: mirror_main_inner_home
                 params:
