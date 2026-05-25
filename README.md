@@ -23,12 +23,11 @@ It’s designed with improved ergonomics, better hardware support, and a few qua
 ## Key Features and Additions
 Compared to **josukey**, Corne Cob includes:
 
-- OLED display for real-time system feedback  
+- OLED display
 - Larger battery for extended wireless use
-- Angled case for improved typing comfort  
-- Nice!Nano-specific footprint for wireless builds  
-- Separate left and right PCBs for easier assembly  
-- 1.5u thumb key support for flexible keymapping  
+- Angled case for improved typing comfort (not in v1.0)
+- Separate left and right PCBs for easier assembly
+- 1.5u thumb key support for better keycap options
 - 6-column design (versus the standard 5-column Corne)
 - Horizontal reset key for easier access
 - North facing RGB for better choc keycap support
@@ -43,14 +42,14 @@ Compared to **josukey**, Corne Cob includes:
 ---
 
 ## Roadmap
-- [ ] Finalize v1 PCB layout  
+- [X] Finalize v1 PCB layout  
 - [ ] Test case fit and alignment  
 - [ ] Validate power delivery and charging circuit  
 - [ ] Release build guide and firmware configuration
 
 ---
 ## Parts List
-Price estimate chart found [here](https://docs.google.com/spreadsheets/d/1HdLqQ5FFB6K92mRF0pi76wc0cOreWh93cLWDCBQdG54/edit?usp=sharing)
+Price estimate chart found [here](https://docs.google.com/spreadsheets/d/1HdLqQ5FFB6K92mRF0pi76wc0cOreWh93cLWDCBQdG54/edit?usp=sharing) <--
 
 - Nice!Nano v2 2 [Microcontroller](https://typeractive.xyz/products/nice-nano)
 - SSD1306 I2C IIC OLED 2 
