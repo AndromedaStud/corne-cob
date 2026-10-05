@@ -1,5 +1,5 @@
 # Corne Cob 🌽
-*A modern Ergogen clone of the popular Corne layout, with a few thoughtful modifications.*
+*A modern Ergogen redesign of the popular Corne layout with personal modifications.*
 
 <p align="center">
   <img width="1025" height="484" alt="Corne Cob Render" src="https://github.com/user-attachments/assets/e373d5a8-4498-42e9-a572-d5ac58e20a0b" />
@@ -21,13 +21,13 @@ It’s designed with improved ergonomics, better hardware support, and a few qua
 ---
 
 ## Key Features and Additions
-Compared to **josukey**, Corne Cob includes:
+Compared to **josukey** and similar corne layouts, Corne Cob includes:
 
 - OLED display
-- Larger battery for extended wireless use
+- Larger battery for extended wireless life
 - Angled case for improved typing comfort (not in v1.0)
 - Separate left and right PCBs for easier assembly
-- 1.5u thumb key support for better keycap options
+- 1.5u thumb key support for more keycap options
 - 6-column design (versus the standard 5-column Corne)
 - Horizontal reset key for easier access
 - North facing RGB for better choc keycap support
