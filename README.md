@@ -35,14 +35,15 @@ Compared to **josukey** and similar corne layouts, Corne Cob includes:
 ---
 
 ## Built With
-- [Ergogen](https://ergogen.xyz/) — PCB and case generation  
+- [Ergogen](https://ergogen.xyz/) — PCB designing 
 - [KiCad](https://kicad.org/) — schematic and layout editing  
 - [josukey](https://github.com/Narkoleptika/josukey) — base layout inspiration  
 
 ---
 
 ## Roadmap
-- [X] Finalize v1 PCB layout  
+- [X] Finalize v1 PCB layout
+- [X] Setup price sheet for budget
 - [ ] Test case fit and alignment  
 - [ ] Validate power delivery and charging circuit  
 - [ ] Release build guide and firmware configuration
