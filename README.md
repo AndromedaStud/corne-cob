@@ -36,8 +36,11 @@ Compared to **josukey** and similar corne layouts, Corne Cob includes:
 ## Case
 *Designed with Onshape*
 <p align="center">
-  <img width="1025" height="484" alt="Corne Cob Render" src="https://github.com/user-attachments/assets/" />
+  <img width="1212" height="641" alt="Screenshot 2026-11-03 110528" src="https://github.com/user-attachments/assets/bf6ba48e-5207-4623-9212-ee32cc262e27" />
 </p>
+
+
+---
 ## Built With
 - [Ergogen](https://ergogen.xyz/) — PCB designing 
 - [KiCad](https://kicad.org/) — schematic and layout editing  
