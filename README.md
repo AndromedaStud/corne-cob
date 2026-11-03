@@ -36,8 +36,7 @@ Compared to **josukey** and similar corne layouts, Corne Cob includes:
 ## Case
 *Designed with Onshape*
 <p align="center">
-  <img width="1212" height="641" alt="download" src="https://github.com/user-attachments/assets/842cf987-f4e5-486e-96d0-e029db7091a4" />
-
+ <img width="1212" height="641" alt="keyboardcase" src="https://github.com/user-attachments/assets/f3a77abf-1b12-4419-99b7-1c66ae8ddb82" />
 </p>
 
 
