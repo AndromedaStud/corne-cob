@@ -35,8 +35,7 @@ Compared to **josukey** and similar corne layouts, Corne Cob includes:
 ---
 ## Case
 *Designed with Onshape based on left PCB*
--
-See the document [here](https://cad.onshape.com/documents/4b27800fb1d5766ea9f563d0/w/4f20d77dd6337f2d27187dd8/e/7361c0148c8c6276b82e26d4?renderMode=0&uiState=6aea463c3d68943d1f0ed62a). *For .stl download, look at projects*
+- See the document [here](https://cad.onshape.com/documents/4b27800fb1d5766ea9f563d0/w/4f20d77dd6337f2d27187dd8/e/7361c0148c8c6276b82e26d4?renderMode=0&uiState=6aea463c3d68943d1f0ed62a). *For .stl download, look at projects*
 <p align="center">
  <img width="1212" height="641" alt="keyboardcase" src="https://github.com/user-attachments/assets/f3a77abf-1b12-4419-99b7-1c66ae8ddb82" />
 </p>
