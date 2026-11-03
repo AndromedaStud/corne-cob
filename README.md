@@ -34,17 +34,19 @@ Compared to **josukey** and similar corne layouts, Corne Cob includes:
 
 ---
 ## Case
-*Designed with Onshape*
+*Designed with Onshape based on left PCB*
 <p align="center">
  <img width="1212" height="641" alt="keyboardcase" src="https://github.com/user-attachments/assets/f3a77abf-1b12-4419-99b7-1c66ae8ddb82" />
 </p>
+Model can be mirrored for the right PCB
 
 
 ---
 ## Built With
-- [Ergogen](https://ergogen.xyz/) — PCB designing 
-- [KiCad](https://kicad.org/) — schematic and layout editing  
-- [josukey](https://github.com/Narkoleptika/josukey) — base layout inspiration  
+- [Ergogen](https://ergogen.xyz/) — PCB base design 
+- [KiCad](https://kicad.org/) — Schematic and layout editing  
+- [josukey](https://github.com/Narkoleptika/josukey) — Base layout inspiration
+- [OnShape](https://Onshape.com/) — Case design
 
 ---
 
