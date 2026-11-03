@@ -16,7 +16,7 @@
 
 ## Overview
 **Corne Cob** builds on the [Corne](https://github.com/foostan/crkbd) layout and extends [Narkoleptika’s josukey](https://github.com/Narkoleptika/josukey) using [Ergogen](https://ergogen.xyz/).  
-It’s designed with improved ergonomics, better hardware support, and a few quality-of-life enhancements.
+Designed with improved ergonomics, better hardware support, and a few quality-of-life enhancements.
 
 ---
 
