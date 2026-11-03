@@ -1,5 +1,5 @@
 # Corne Cob 🌽
-*A modern Ergogen redesign of the popular Corne layout with personal modifications.*
+*A modern Ergogen redesign of the popular Corne layout.*
 
 <p align="center">
   <img width="1025" height="484" alt="Corne Cob Render" src="https://github.com/user-attachments/assets/e373d5a8-4498-42e9-a572-d5ac58e20a0b" />
