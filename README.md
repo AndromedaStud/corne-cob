@@ -33,7 +33,11 @@ Compared to **josukey** and similar corne layouts, Corne Cob includes:
 - North facing RGB for better choc keycap support
 
 ---
-
+## Case
+*Designed with Onshape*
+<p align="center">
+  <img width="1025" height="484" alt="Corne Cob Render" src="https://github.com/user-attachments/assets/" />
+</p>
 ## Built With
 - [Ergogen](https://ergogen.xyz/) — PCB designing 
 - [KiCad](https://kicad.org/) — schematic and layout editing  
